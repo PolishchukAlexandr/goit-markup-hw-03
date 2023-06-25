@@ -167,6 +167,7 @@ img {
 }
 .foot-background {
   background-color: var(--primary-navyblue-color);
+  padding: 100px 0;
 }
 .foot-logo {
   font-family: "Raleway", sans-serif;
@@ -176,6 +177,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .foot-logo-studio {
   color: var(--primary-cloud-color);
@@ -184,6 +187,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-cloud-color);
+  max-width: 264px;
 }
 .portfolio-butt {
   font-family: "Roboto", sans-serif;
