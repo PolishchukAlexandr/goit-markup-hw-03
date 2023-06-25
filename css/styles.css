@@ -145,7 +145,7 @@ img {
 }
 .team-section {
   background-color: var(--primary-cloud-color);
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .name-list {
