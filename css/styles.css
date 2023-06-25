@@ -12,7 +12,25 @@ body {
   color: var(--primary-slate-color);
   background-color: var(--primary-white-color);
 }
-
+.top-head {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
 .logo-header {
   font-family: "Raleway", sans-serif;
   color: var(--primary-blue-color);
@@ -21,15 +39,20 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .span-logo {
   color: var(--primary-navyblue-color);
 }
-
+.header-list {
+  display: flex;
+  gap: 40px;
+}
 .address {
   font-style: normal;
 }
-.img {
+img {
+  display: block;
 }
 .list {
   list-style: none;
@@ -40,6 +63,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-navyblue-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .pages:hover,
 .pages:focus {
@@ -64,6 +89,10 @@ body {
 }
 .main-title {
   background-color: var(--primary-navyblue-color);
+  padding: 188px 0;
+}
+.solutions-logo {
+  max-width: 496px;
 }
 .title {
   font-size: 56px;
@@ -81,6 +110,11 @@ body {
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -92,6 +126,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-navyblue-color);
+  margin-bottom: 8px;
 }
 .paragraph {
   line-height: 1.5;
@@ -105,9 +140,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-navyblue-color);
+  margin-bottom: 72px;
 }
 .team-section {
   background-color: var(--primary-cloud-color);
+  padding: 120px;
 }
 
 .name-list {
@@ -116,6 +153,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-navyblue-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 .our-team-background {
   background-color: var(--primary-white-color);
@@ -124,6 +163,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-slate-color);
+  text-align: center;
 }
 .foot-background {
   background-color: var(--primary-navyblue-color);
@@ -172,6 +212,26 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-slate-color);
 }
-img {
-  display: block;
+.main-about {
+  padding: 120px 0;
+}
+.list-about {
+  display: flex;
+  gap: 24px;
+}
+.li-about {
+  width: calc((100%-72px) / 4);
+}
+.main-doing {
+  padding-bottom: 120px;
+}
+.li-photo {
+  width: calc((100%-48px) / 3);
+}
+.li-people {
+  width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.personal-name {
+  padding: 32px 16px;
 }
