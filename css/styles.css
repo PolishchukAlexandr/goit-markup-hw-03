@@ -25,6 +25,14 @@ p {
 }
 ul {
   padding: 0;
+  margin: 0;
+}
+a {
+  display: block;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
 }
 .top-head {
   border-bottom: 1px solid #e7e9fc;
@@ -43,6 +51,7 @@ ul {
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 .container {
   width: 1158px;
@@ -123,6 +132,7 @@ img {
 }
 .solutions-logo {
   max-width: 496px;
+  margin-bottom: 48px;
 }
 .title {
   margin-left: auto;
